@@ -6,6 +6,7 @@ using NetRPG.Runtime.Typing.Files;
 
 namespace NetRPG.Runtime.Functions.System
 {
+    #pragma warning disable 8981 
     class printf : Function
     {
         public override object Execute(object[] Parameters)
@@ -15,4 +16,5 @@ namespace NetRPG.Runtime.Functions.System
             return output.Length;
         }
     }
+    #pragma warning restore 8981
 }

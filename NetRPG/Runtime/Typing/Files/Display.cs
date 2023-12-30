@@ -368,7 +368,7 @@ namespace NetRPG.Runtime.Typing.Files
                 case "WHT":
                     return Color.White;
                 case "TRQ":
-                    return Color.BrighCyan;
+                    return Color.BrightCyan;
                 case "PNK":
                     return Color.BrightMagenta;
 
